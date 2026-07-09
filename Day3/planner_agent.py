@@ -34,7 +34,7 @@ except ImportError:  # LangChain < 1.0
 try:
     from langchain_classic.memory import ConversationBufferMemory
 except ImportError:  # LangChain < 1.0
-    from langchain.memory import ConversationBufferMemory
+    from langchain_classic.memory import ConversationBufferMemory
 
 
 # ------------------------------------------------------------
