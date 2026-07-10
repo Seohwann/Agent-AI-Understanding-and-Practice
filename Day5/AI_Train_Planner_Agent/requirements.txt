@@ -1,7 +1,5 @@
 streamlit
 python-dotenv
-langchain
+requests
 langgraph
-langchain-google-genai
-langchain-tavily
-tavily-python
+langchain-openai
